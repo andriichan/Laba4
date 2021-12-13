@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andrii Tkach</title>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 800px;
+        }
+        nav{
+        height: 75px;
+        }
+        .nav{
+            height: 100px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 33px;
+        }
+        .background{
+        background-image: url("background.jpg");
+        }
+        .nav_link{
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .enter{
+            height: 80%;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 40px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-image: url("background1.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 40px;
+            font-weight: bold;
+        }
+        .content_second{
+            padding: 30px;
+            font-size: 21px;
+        }
+        .foot{
+            background-image: url("background.jpg");
+        }
+        </style>
+   </head>
+    <body>
+        <header class="background">
+            <navbar>
+                <div class="nav">
+                    <div>
+                    <a class="nav_link" href="#">Me</a>
+                    <a class="nav_link" href="#">Social Media</a>
+                    <a class="nav_link" href="#">Wiki</a>
+                    <a class="nav_link" href="#">Something else</a>
+                    </div>
+                </div>
+             </navbar>
+             <div class="enter">
+                <h6>Andrii Tkach</h6>
+                <h1>Some text</h1>
+        </div>
+            </header>
+            <div class="content">
+            <img src="L.jpeg" width="200px" style="margin-bottom: 20px;">
+            <h1 style="margin-bottom: 20px;">Tkach Andrii Romanovych</h1>
+            <h2>Skills</h2>
+            <table width="900px" cellspacing="10px" cellpadding="10px">
+            <tr>
+                <td>HTML - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                <td>CSS - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                <td>Python - &#11088;&#11088;&#11088;&#11088;</td>
+                <td>Java - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            </tr>
+            <tr>
+                <td>Javascript - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                <td>C++ - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                <td>Math - &#11088;&#11088;&#11088;&#11088;&#11088;</td>
+                <td>English - &#11088;&#11088;&#11088;&#11088;</td>
+            </tr>
+        </table>
+        <div class="content_second">
+                    <h3>Favourite games</h3>
+                    <ul style="list-style-type: none; padding: 20px;">
+                        <li>Skyrim</li>
+                        <li>Cyberpunk</li>
+                    </ul>
+                    <h3>Favourite Books</h3>
+                    <ol style="list-style-type: none; padding: 20px;">
+                        <li>Witcher</li>
+                        <li>Harry Potter</li>
+                        <li>God Delusion</li>
+
+                    </ol>
+        <br>
+        </div>
+    <h2 style="margin-bottom: 20px;">Contact With Me</h2>
+    <form action="mailto:andriytkach1008@gmail.com" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" name="user_name" >
+        <br>
+        <br>
+        <label for="name">Your Email:</label>
+        <input type="email" name="user_email">
+        <br>
+        <br>
+        <label for="name">Message  :</label><br>
+        <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit">
+    </form>
+    </div>
+    <footer>   
+        <div class="nav foot">
+        <a class="nav_link" href="">Link to smt</a>
+        </div>
+        </footer>
+    </body>
+</html>
